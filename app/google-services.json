@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "644157755812",
+    "project_id": "rishikeshproject-ec6df",
+    "storage_bucket": "rishikeshproject-ec6df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644157755812:android:9e3f01dc6c03f3f4c6f131",
+        "android_client_info": {
+          "package_name": "com.example.rishikeshproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644157755812-6oa9gt08ob11murhtcrna8ebulcp96gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishikeshproject",
+            "certificate_hash": "0369020eb82f3e9fe2a1f8cf05085ff6fd44226b"
+          }
+        },
+        {
+          "client_id": "644157755812-1oocuc3p22q3a3ujv1k7l6a74aj8j8fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAbQ2-F3qfZbR6FIxNGWFhTzjKgcTY5fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644157755812-1oocuc3p22q3a3ujv1k7l6a74aj8j8fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_scan_document"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/select_photo"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:visibility="gone"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/open_camera"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/pick_from_gallery"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+<!--            <View-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="@dimen/_1sdp"-->
+<!--                android:background="@android:color/darker_gray" />-->
+
+<!--            <View-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="@dimen/_1sdp"-->
+<!--                android:background="@android:color/darker_gray" />-->
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/bg_edit"
+            android:backgroundTint="@color/app_color"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
